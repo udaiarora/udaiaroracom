@@ -1,0 +1,215 @@
+
+/*Custom Styles*/
+
+body {
+	background: #159CBB;
+	font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	font-size: 16px;
+	min-width: 1250px;
+	line-height: 28px;
+}
+
+.center {
+	text-align: center !important;
+}
+
+
+.inline {
+	display: inline-block;
+}
+
+
+a {
+	text-decoration: none;
+	color: inherit;/*
+	font-weight: bold;*/
+	background: rgba(10,10,10,0.2);
+}
+
+a:visited {
+	color: inherit;
+}
+
+a:hover {
+	text-decoration: underline;
+	color: #bbbbbb;
+}
+
+.ptr {
+	cursor: pointer;
+}
+
+.hidden {
+	display: none;
+}
+.flarge{
+	font-size: 24px !important;
+}
+
+.bold {
+	font-weight: bold;
+}
+
+.margin-b {
+	margin-bottom: 30px;
+}
+.main-content {
+	margin-left: 0px;
+	margin-right: 0px;
+	background: #159CBB;
+	margin-top: 20px;
+	height: 100%;
+	color: #ffffff;
+	padding: 20px;
+	border-radius: 3px;
+	.heading {
+		@media print {
+			display: none;
+		}
+		font-size: 22px;
+		margin-bottom: 20px;
+	}
+	form {
+		margin-top: 30px;
+		margin-bottom: 30px;
+	}
+	.msg-area {
+		background: #35BCC3;
+		padding: 10px;
+		margin-bottom: 20px;
+	}
+}
+
+.leftpane {
+	@media print{
+		display: none;
+	}
+
+	height: 80px;
+	color: #ffffff;
+	background: #45484d; /* Old browsers */
+	background: -moz-linear-gradient(top, #45484d 0%, #121212 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#45484d), color-stop(100%,#121212)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top, #45484d 0%,#121212 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top, #45484d 0%,#121212 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top, #45484d 0%,#121212 100%); /* IE10+ */
+	background: linear-gradient(to bottom, #45484d 0%,#121212 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#45484d', endColorstr='#121212',GradientType=0 ); /* IE6-9 */
+
+	border-bottom: 2px solid #bcbcbc;
+	.lp-content {
+		/*padding: 20px;*/
+	}
+
+
+
+	.menu-item {
+		width: 140px;
+		height: 60px;
+		padding: 10px;
+		text-align: center;
+		background: #353535; /* Old browsers */
+		background: -moz-linear-gradient(top, #353535 0%, #070707 100%); /* FF3.6+ */
+		background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#353535), color-stop(100%,#070707)); /* Chrome,Safari4+ */
+		background: -webkit-linear-gradient(top, #353535 0%,#070707 100%); /* Chrome10+,Safari5.1+ */
+		background: -o-linear-gradient(top, #353535 0%,#070707 100%); /* Opera 11.10+ */
+		background: -ms-linear-gradient(top, #353535 0%,#070707 100%); /* IE10+ */
+		background: linear-gradient(to bottom, #353535 0%,#070707 100%); /* W3C */
+		filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#353535', endColorstr='#070707',GradientType=0 ); /* IE6-9 */
+		cursor: pointer;
+		border-right: 1px solid #bcbcbc;
+		margin-left: -4px;
+	}
+	.menu-item:hover {
+		background: #101010;
+	}
+
+
+}
+
+
+.tiles {
+	vertical-align: middle;
+	text-align: center;
+	display: inline-block;
+	background: #434343;
+	padding: 50px;
+	width: 350px;
+	height: 45px;
+	font-size: 25px;
+	margin-right: 50px;
+	margin-bottom: 20px;
+	margin-top: 40px;
+	border-radius: 4px;
+	cursor: pointer;
+}
+
+.form-signin {
+	max-width: 300px;
+	padding: 19px 29px 29px;
+	margin: 50px auto;
+	background-color: #fff;
+	border: 1px solid #e5e5e5;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	-webkit-box-shadow: 0 1px 2px rgba(0,0,0,.05);
+	-moz-box-shadow: 0 1px 2px rgba(0,0,0,.05);
+	box-shadow: 0 1px 2px rgba(0,0,0,.05);
+	.form-signin-heading, .checkbox {
+		margin-bottom: 10px;
+	}
+	input[type="text"], input[type="password"] {
+		font-size: 16px;
+		height: auto;
+		margin-bottom: 15px;
+		padding: 7px 9px;
+	}
+}
+
+
+
+table{
+	@media print {
+		width: 1000px !important;
+	}
+}
+
+.form-inline {
+	@media print {
+		display: none;
+	}
+}
+
+.table tr:hover {
+	background: #007C83;
+	cursor: pointer;
+}
+.table thead tr:hover {
+	background: none;
+}
+
+.inv-inp {
+	width: 700px;
+	border:none;
+	background: #159CBB;
+	color: white;
+	text-align: right;
+}
+.table tr:hover .inv-inp {
+	background: #007C83;
+}
+
+/*End Custom Styles*/
+
+tr form {
+	margin:0px !important;
+}
+
+tr .form-horizontal .control-label {
+	width: 270px;
+}
+
+tr .form-horizontal .control-group {
+	width: 540px;
+}
